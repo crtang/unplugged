@@ -23,9 +23,18 @@
 </head>
 
 <body>
-    <header>
-    <div>
-      <a href="#"><img src="" alt="Unplugged logo"></a>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <header>
+    <div class="content-wrapper">
+      <a href="#">
+        <img src="" alt="Unplugged logo">
+      </a>
+
+      <div class="header-divider"></div>
 
       <nav>
         <ul>
@@ -39,27 +48,31 @@
       </nav>
     </div>
   </header>
-  
+
   <main>
-    <section>
-      <h1>
-        Retreat from the desk, return refreshed.
-      </h1>
+    <section class="hero-area">
+      <div class="content-wrapper">
+        <h1>Retreat from the desk, return refreshed.</h1>
+      </div>
     </section>
 
     <aside>
-      <h3>Want to join the next retreat?</h3>
+      <div class="content-wrapper">
+        <div class="form-description">
+          <h3>Want to join the next retreat?</h3>
 
-      <p>
-        Find out when we are holding our next retreat and how your company or team can sign up!
-      </p>
+          <p>
+            Find out when we are holding our next retreat and how your company or team can sign up!
+          </p>
+        </div>
+      </div>
 
-      <h3>
-        Find out more
-      </h3>
+      <div class="form">
+        <h3>Find out more</h3>
 
-      <input type="text" name="name" value="email address">
-      <input type="button" value="Download Itinerary">
+        <input type="text" name="name" value="name@email.com">
+        <input type="button" value="Download Itinerary">
+      </div>
     </aside>
 
     <section class="features">
@@ -67,47 +80,49 @@
         <!-- Add your Features content here -->
         <h2>Have the work week you always dreamed of — without the bad wifi.</h2>
 
-        <article>
-          <p class="fontawesome-icon"></p>
-          <p class="features-item-description">
-            Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.
-          </p>
-        </article>
+        <div class="features-items">
+          <article>
+            <p class="fontawesome-icon"></p>
+            <p class="features-item-description">
+              Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.
+            </p>
+          </article>
 
-        <article>
-          <p class="fontawesome-icon"></p>
-          <p class="features-item-description">
-            12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4 breakout rooms.
-          </p>
-        </article>
+          <article>
+            <p class="fontawesome-icon"></p>
+            <p class="features-item-description">
+              12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4 breakout rooms.
+            </p>
+          </article>
 
-        <article>
-          <p class="fontawesome-icon"></p>
-          <p class="features-item-description">
-            Private chef team providing on-demand meals — just like your team kitchen.
-          </p>
-        </article>
+          <article>
+            <p class="fontawesome-icon"></p>
+            <p class="features-item-description">
+              Private chef team providing on-demand meals — just like your team kitchen.
+            </p>
+          </article>
 
-        <article>
-          <p class="fontawesome-icon"></p>
-          <p class="features-item-description">
-            4 outdoor obstacle courses, including private beach 1/2 mile from the bungalow.
-          </p>
-        </article>
+          <article>
+            <p class="fontawesome-icon"></p>
+            <p class="features-item-description">
+              4 outdoor obstacle courses, including private beach 1/2 mile from the bungalow.
+            </p>
+          </article>
 
-        <article>
-          <p class="fontawesome-icon"></p>
-          <p class="features-item-description">
-            Retreat facilitator to manage your day-to-day activities so you all get a chance to reset.
-          </p>
-        </article>
+          <article>
+            <p class="fontawesome-icon"></p>
+            <p class="features-item-description">
+              Retreat facilitator to manage your day-to-day activities so you all get a chance to reset.
+            </p>
+          </article>
 
-        <article>
-          <p class="fontawesome-icon"></p>
-          <p class="features-item-description">
-            Dedicated computer room for times that you must wifi.
-          </p>
-        </article>
+          <article>
+            <p class="fontawesome-icon"></p>
+            <p class="features-item-description">
+              Dedicated computer room for times that you must wifi.
+            </p>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -116,9 +131,7 @@
         <h2>Be a better team in 4 days, like this one.</h2>
 
         <article>
-          <img src="" alt="">
-
-          <div class="content=wrapper">
+          <div>
             <h3>LaCrue Bottling Co.<br>October 2018</h3>
 
             <p>
@@ -137,8 +150,11 @@
           <h4>Contact</h4>
 
           <address>
-            <p>555-555-5555</p>
-            <p>hello@unplugged.com</p>
+            <p>
+              555-555-5555
+              <br>
+              hello@unplugged.com
+            </p>
           </address>
         </div>
 
@@ -146,28 +162,25 @@
           <h4>Social</h4>
 
           <p>
-            <a href="https://www.facebook.com/yoursite" target="_blank" rel="noopener"></a>
+            <a href="https://www.facebook.com/Skillcrush" target="_blank"></a>
           </p>
 
           <p>
-            <a href="https://www.facebook.com/yoursite" target="_blank" rel="noopener"></a>
+            <a href="https://www.twitter.com/Skillcrush" target="_blank"></a>
           </p>
 
           <p>
-            <a href="https://www.facebook.com/yoursite" target="_blank" rel="noopener"></a>
+            <a href="https://www.instagram.com/skillcrush" target="_blank"></a>
           </p>
-
-          <!-- other social links here -->
         </div> <!-- footer content ends -->
       </div>
-
-      <div class="copyright">
-        <p>Copyright 202X | Unplugged</p>
-      </div>
     </div> <!-- footer content-wrapper ends -->
+
+    <div class="copyright">
+      <p>Copyright 202X | Unplugged</p>
+    </div>
   </footer>
 
-  <!-- Add your site or application content here -->
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
