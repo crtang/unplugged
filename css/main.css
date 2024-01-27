@@ -95,6 +95,8 @@ textarea {
   }
 
   .content-wrapper {
+    box-sizing: border-box;
+    margin: 0 5%;
     width: 90%;
   }
 
@@ -130,6 +132,11 @@ textarea {
     padding: 0;
   }
 
+  main {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
   .hero-area {
     display: flex;
     justify-content: center;
@@ -138,6 +145,10 @@ textarea {
 
   .form {
     width: 90%;
+  }
+
+  .form-description p {
+    margin: 0 0 30px 0;
   }
 
   aside {
@@ -151,16 +162,20 @@ textarea {
     margin: 20px 0;
   }
 
-  input[type="button"] {
-    margin-top: 40px;
-    padding: 20px 0;
-  }
-
   input[type="text"] {
+    width: 90%;
+    margin-bottom: 20px;
     padding: 1em;
   }
 
+  input[type="button"] {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px 0;
+  }
+
   .features {
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     margin: 50px 0;
@@ -172,7 +187,7 @@ textarea {
   }
 
   .features h2 {
-    margin: 0;
+    margin: 0 0 60px 0;
   }
 
   .features .features-items {
@@ -180,7 +195,6 @@ textarea {
     justify-content: center;
     align-items: flex-start;
     flex-flow: row wrap;
-    margin-top: 60px;
   }
 
   .features p {
@@ -218,7 +232,11 @@ textarea {
 
   footer .content-wrapper {
     width: 90%;
-    margin: 50px 0;
+    margin: 50px 0 0 0;
+  }
+
+  footer .contact, footer .social {
+    margin: 0 0 50px 0;
   }
 
   footer h4 {
@@ -229,11 +247,7 @@ textarea {
     margin: 0;
   }
 
-  footer .social {
-    margin-top: 50px;
-  }
-
-  footer .social-icons {
+  footer .social-icons, footer .social-icons p {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -249,11 +263,21 @@ textarea {
     margin: 20px 0;
   }
 
+  footer .footer-contact, footer .copyright {
+    width: 60%;
+    padding: 0 20%;
+  }
+
 
 
   .mission {
     display: flex;
     justify-content: center;
+    margin: 50px 0;
+  }
+
+  .mission-content h2 {
+    margin: 0;
   }
 
   .contact-section {
@@ -262,7 +286,7 @@ textarea {
   }
 
   .contact-section p {
-    margin: 0;
+    margin: 50px 0;
   }
 
 
@@ -277,6 +301,19 @@ textarea {
     justify-content: center;
     align-items: flex-start;
     flex-flow: row wrap;
+    margin: 50px 0 0 0;
+  }
+
+  .faq .content-wrapper h2 {
+    margin: 0 0 40px 0;
+  }
+
+  .faq .content-wrapper .question {
+    margin: 0 0 50px 0;
+  }
+
+  .faq .content-wrapper p {
+    margin: 0;
   }
 
 /* ==========================================================================
@@ -367,8 +404,13 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 768px) {
   /* Style adjustments for viewports that meet the condition */
+  /* Tablet styles here */
+}
+
+@media only screen and (min-width: 1200px) {
+  /* Desktop styles here */
 }
 
 @media print,
