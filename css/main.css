@@ -468,7 +468,7 @@ textarea {
     width: 100%;
   }
 
-  h2 {
+  .mission h2 {
     width: 100%;
     margin: 0 0 20px 0;
   }
@@ -483,6 +483,10 @@ textarea {
 
   .faq .content-wrapper .question {
     flex-basis: 45%;
+  }
+
+  .faq h2 {
+    width: 100%;
   }
 
   .mission-content {
