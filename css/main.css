@@ -648,6 +648,10 @@ textarea {
     width: 100%;
   }
 
+  .map figure {
+    padding-bottom: 54.6875%;
+  }
+
   .faq .content-wrapper {
     justify-content: space-between;
   }
@@ -773,6 +777,10 @@ textarea {
 
   .reviews h3 {
     width: 75%;
+  }
+
+  .map figure {
+    padding-bottom: 46.875%;
   }
 
   .contact-section .content-wrapper h2 {
