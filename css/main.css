@@ -96,6 +96,7 @@ textarea {
    body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
+    color: #e2e3ed;
    }
 
    ul,
@@ -108,21 +109,29 @@ textarea {
     text-decoration: none;
    }
 
+   h1, {
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-size: 2.25em;
+    line-height: 2.6875em;
+    font-weight: 500;
+   }
+
    h2 {
     font-family: 'Poppins', sans-serif;
-    font-size: 2.25em;
-    line-height: 1.25em;
+    font-size: 1.875em;
+    font-weight: 500;
    }
 
    h3,
    h4 {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.75em;
-    line-height: 1.25em;
+    font-size: 1.125em;
+    font-weight: 500;
    }
 
    p {
-    line-height: 1.25em;
+    font-size: .875em;
+    line-height: 1.125em;
    }
 
    img {}
@@ -145,6 +154,7 @@ textarea {
     display: flex;
     justify-content: center;
     padding: 15px 0;
+    background: #202322;
   }
 
   header .content-wrapper {
@@ -167,6 +177,8 @@ textarea {
 
   header nav {
     width: 60%;
+    font-size: 1.125em;
+    font-weight: bold;
   }
 
   header nav ul {
@@ -181,6 +193,7 @@ textarea {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background: #202322;
   }
 
   footer .content-wrapper {
@@ -203,12 +216,14 @@ textarea {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: #527158;
   }
 
   footer .social-icons p {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.3125em;
   }
 
   footer .copyright {
@@ -232,8 +247,14 @@ textarea {
   }
 
   aside {
+    width: 100%;
     display: flex;
     justify-content: center;
+    background: #527158;
+  }
+
+  aside .form {
+    margin-top: 30px;
   }
 
   .form-description p {
@@ -247,17 +268,30 @@ textarea {
   input[type="text"] {
     box-sizing: border-box;
     width: 100%;
+    color: #2a423a;
+    font-style: italic;
     margin-bottom: 20px;
     padding: 1em;
+    font-size: 1.125em;
+    font-weight: 500;
   }
 
   input[type="button"] {
     width: 100%;
     margin-top: 20px;
     padding: 20px 0;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
   }
 
   .features {
+    width: 100%;
     display: flex;
     justify-content: center;
   }
@@ -284,15 +318,19 @@ textarea {
 
   .features .fontawesome-icon {
     margin-bottom: 40px;
+    font-size: 3.75em;
   }
 
   .reviews {
+    width: 100%;
     display: flex;
     justify-content: center;
-    }
+    background: #2a423a;
+  }
 
   .reviews h2 {
     margin-bottom: 40px;
+    line-height: 1.875em;
   }
 
   .reviews h3 {
@@ -306,12 +344,14 @@ textarea {
     width: 100%;
     display: flex;
     justify-content: center;
+    background: #527158;
   }
 
   .contact-section {
     width: 100%;
     display: flex;
     justify-content: center;
+    background: #2a423a;
   }
 
   .contact-section .content-wrapper p {
@@ -323,6 +363,7 @@ textarea {
   .faq {
     display: flex;
     justify-content: center;
+    background: #527158;
   }
 
   .faq .content-wrapper {
@@ -335,6 +376,11 @@ textarea {
 
   .faq .content-wrapper h2 {
     margin-bottom: 40px;
+    line-height: 1.875em;
+  }
+
+  .faq .question h4 {
+    line-height: 1.5em;
   }
 
   .faq .content-wrapper .question {
@@ -432,6 +478,23 @@ textarea {
 @media only screen and (min-width: 768px) {
   /* Style adjustments for viewports that meet the condition */
   /* Tablet styles here */
+  h1 {
+    font-size: 3em;
+    line-height: 3em;
+  }
+
+  h2 {
+    font-size: 2.25em;
+    line-height: 3em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.875em;
+  }
+
+
+
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
@@ -510,8 +573,13 @@ textarea {
     margin: 0;
   }
 
+  footer p {
+    line-height: 1.125em;
+  }
+
   .footer-contact h4 {
     margin: 0 0 40px 0;
+    font-size: 1.5em;
   }
 
   footer .copyright {
@@ -539,6 +607,12 @@ textarea {
     width: 100%;
   }
 
+  .faq h4,
+  .faq p {
+    font-size: .875em;
+    line-height: .984375em;
+  }
+
   .mission-content {
     display: flex;
     justify-content: space-between;
@@ -560,10 +634,44 @@ textarea {
     justify-content: space-between;
     align-items: flex-start;
   }
+
+  .contact-content h4 {
+    font-size: 1.5em;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   /* Desktop styles here */
+  h1 {
+    font-size: 3.75em;
+  }
+
+  h2 {
+    font-size: 2.25em;
+  }
+
+  .faq h2,
+  .mission h2 {
+    font-size: 3em;
+  }
+
+  h3,
+  h4 {
+    font-size: 1.875em;
+  }
+
+  .faq h4,
+  .faq p {
+    font-size: 1.125em;
+    line-height: 1.125em;
+  }
+
+  p {
+    font-size: 1.125em;
+    line-height: 1.5em;
+  }
+
+
 
   .content-wrapper {
     max-width: 960px;
