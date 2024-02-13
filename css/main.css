@@ -171,12 +171,14 @@ textarea {
 
   header figure {
     width: 60%;
+    padding: 0 20%;
   }
 
   .header-divider {
     width: 100%;
     height: 1px;
     margin: 10px 0 20px 0;
+    background: #333333;
   }
 
   header figure {
@@ -363,6 +365,22 @@ textarea {
     background: #527158;
   }
 
+  .map figure {
+    width: 100%;
+    height: 0;
+    position: relative;
+    padding-bottom: 75%;
+    overflow: hidden;
+  }
+
+  .map iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
   .contact-section {
     width: 100%;
     display: flex;
@@ -531,6 +549,7 @@ textarea {
 
   header figure {
     width: 100%;
+    padding: 0;
   }
 
   .header-divider {
