@@ -109,10 +109,10 @@ textarea {
     text-decoration: none;
    }
 
-   h1, {
+   h1 {
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-size: 2.25em;
-    line-height: 2.6875em;
+    line-height: 1.1944em;
     font-weight: 500;
    }
 
@@ -131,7 +131,7 @@ textarea {
 
    p {
     font-size: .875em;
-    line-height: 1.125em;
+    line-height: 1.2857em;
    }
 
    img {
@@ -255,6 +255,7 @@ textarea {
 
   .hero-area {
     width: 100%;
+    height: 500px;
     display: flex;
     justify-content: center;
     background: #333 url('../img/unplugged-retreat.jpg') center no-repeat;
@@ -348,7 +349,7 @@ textarea {
 
   .reviews h2 {
     margin-bottom: 40px;
-    line-height: 1.875em;
+    line-height: 1.6667em;
   }
 
   .reviews figure {
@@ -369,11 +370,15 @@ textarea {
     background: #527158;
   }
 
+  .mission h2 {
+    padding-bottom: 20px;
+  }
+
   .map figure {
     width: 100%;
     height: 0;
     position: relative;
-    padding-bottom: 75%;
+    padding-bottom: 125%;
     overflow: hidden;
   }
 
@@ -390,6 +395,10 @@ textarea {
     display: flex;
     justify-content: center;
     background: #2a423a;
+  }
+
+  .contact-section h4 {
+    padding: 20px 0;
   }
 
   .contact-section .content-wrapper p {
@@ -414,7 +423,7 @@ textarea {
 
   .faq .content-wrapper h2 {
     margin-bottom: 40px;
-    line-height: 1.875em;
+    line-height: 1.6667em;
   }
 
   .faq .question h4 {
@@ -518,17 +527,17 @@ textarea {
   /* Tablet styles here */
   h1 {
     font-size: 3em;
-    line-height: 3em;
+    line-height: 1em;
   }
 
   h2 {
     font-size: 2.25em;
-    line-height: 3em;
+    line-height: 1.3333em;
   }
 
   h3 {
     font-size: 1.5em;
-    line-height: 1.875em;
+    line-height: 1.25em;
   }
 
 
@@ -661,11 +670,13 @@ textarea {
   }
 
   .faq .content-wrapper {
+    margin: 100px 0;
     justify-content: space-between;
   }
 
   .faq .content-wrapper .question {
     flex-basis: 45%;
+    margin: 0;
   }
 
   .faq h2 {
@@ -675,7 +686,11 @@ textarea {
   .faq h4,
   .faq p {
     font-size: .875em;
-    line-height: .984375em;
+    line-height: 1.125em;
+  }
+
+  .faq h4 {
+    padding-top: 20px;
   }
 
   .mission-content {
@@ -692,6 +707,7 @@ textarea {
 
   .contact-section .content-wrapper h2 {
     width: 80%;
+    padding-bottom: 20px;
   }
 
   .contact-content {
@@ -702,6 +718,7 @@ textarea {
 
   .contact-content h4 {
     font-size: 1.5em;
+    padding-bottom: 20px;
   }
 }
 
@@ -715,6 +732,10 @@ textarea {
     font-size: 2.25em;
   }
 
+  .hero-area {
+    height: 600px;
+  }
+
   .faq h2,
   .mission h2 {
     font-size: 3em;
@@ -725,15 +746,21 @@ textarea {
     font-size: 1.875em;
   }
 
+  h2,
+  h3,
+  h4 {
+    padding-bottom: 20px;
+  }
+
   .faq h4,
   .faq p {
     font-size: 1.125em;
-    line-height: 1.125em;
+    line-height: 1.25em;
   }
 
   p {
     font-size: 1.125em;
-    line-height: 1.5em;
+    line-height: 1.3333em;
   }
 
 
@@ -793,6 +820,12 @@ textarea {
 
   .contact-section .content-wrapper h2 {
     width: 85%;
+  }
+
+  .faq h4,
+  .faq p {
+    font-size: 1.125em;
+    line-height: 1.25em;
   }
 
   footer .social-icons p {
