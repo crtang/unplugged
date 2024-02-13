@@ -226,14 +226,17 @@ textarea {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #527158;
   }
 
   footer .social-icons p {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 1.75em;
+    height: 1.75em;
     font-size: 1.3125em;
+    background: #527158;
+    border-radius: 50%;
   }
 
   footer .copyright {
@@ -627,6 +630,10 @@ textarea {
     margin: 0;
   }
 
+  footer .social-icons p {
+    margin: .5em;
+  }
+
   footer p {
     line-height: 1.125em;
   }
@@ -787,6 +794,11 @@ textarea {
   .contact-section .content-wrapper h2 {
     width: 85%;
   }
+
+  footer .social-icons p {
+    margin: 1em;
+  }
+
 }
 
 @media print,
