@@ -316,13 +316,14 @@ textarea {
 
   .features article {
     width: 60%;
+    text-align: center;
     margin: 30px 0;
   }
 
   .features .features-items {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-flow: row wrap;
   }
 
