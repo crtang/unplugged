@@ -134,9 +134,13 @@ textarea {
     line-height: 1.125em;
    }
 
-   img {}
+   img {
+    width: 100%;
+   }
 
-   figure {}
+   figure {
+    margin: 0;
+   }
 
    address {
     font-style: normal;
@@ -163,6 +167,10 @@ textarea {
     align-items: center;
     flex-flow: row wrap;
     margin: 0;
+  }
+
+  header figure {
+    width: 60%;
   }
 
   .header-divider {
@@ -244,6 +252,8 @@ textarea {
     width: 100%;
     display: flex;
     justify-content: center;
+    background: #333 url('../img/unplugged-retreat.jpg') center no-repeat;
+    background-size: cover;
   }
 
   aside {
@@ -269,10 +279,10 @@ textarea {
     box-sizing: border-box;
     width: 100%;
     color: #2a423a;
-    font-style: italic;
     margin-bottom: 20px;
     padding: 1em;
     font-size: 1.125em;
+    font-style: italic;
     font-weight: 500;
   }
 
@@ -294,6 +304,8 @@ textarea {
     width: 100%;
     display: flex;
     justify-content: center;
+    background: #333 url("../img/unplugged-retreat-features.jpg") center no-repeat;
+    background-size: cover;
   }
 
   .features h2 {
@@ -331,6 +343,10 @@ textarea {
   .reviews h2 {
     margin-bottom: 40px;
     line-height: 1.875em;
+  }
+
+  .reviews figure {
+    width: 100%;
   }
 
   .reviews h3 {
@@ -509,6 +525,14 @@ textarea {
     justify-content: space-between;
   }
 
+  header a {
+    width: 30%;
+  }
+
+  header figure {
+    width: 100%;
+  }
+
   .header-divider {
     display: none;
   }
@@ -549,10 +573,20 @@ textarea {
   .reviews article {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+  }
+
+  .reviews figure {
+    width: 49%;
   }
 
   .reviews article div {
     width: 49%;
+  }
+
+  .reviews h3 {
+    width: 75%;
+    margin: 0;
   }
 
   footer .content-wrapper {
@@ -701,7 +735,21 @@ textarea {
   }
 
   .reviews h2 {
+    width: 100%;
     margin-bottom: 50px;
+  }
+
+  .reviews article {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .reviews figure {
+    width: 50%;
+  }
+
+  .reviews article div {
+    width: 45%;
   }
 
   .reviews h3 {
