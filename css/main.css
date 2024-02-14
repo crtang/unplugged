@@ -246,13 +246,6 @@ textarea {
 
 
   /* Homepage */
-
-  main {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-  }
-
   .hero-area {
     width: 100%;
     height: 500px;
